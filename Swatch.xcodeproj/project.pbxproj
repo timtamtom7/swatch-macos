@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		15C0E151C5761F7F949B67F5 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01861B443DE9CFACD9D3C36 /* NotificationManager.swift */; };
 		1A712442476B165C02EE30CD /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7BD66D6255277A0BEC447BC /* Theme.swift */; };
 		3E28A9EB36EED45D40A8E603 /* ColorConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E87EB423D8CE25A550EF16 /* ColorConverter.swift */; };
 		443BB0B09C02281E8627E0EE /* SwatchColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC44DAED152F92920C1DA533 /* SwatchColor.swift */; };
@@ -15,19 +16,50 @@
 		67FA82DB66187D3CF379E482 /* iCloudSyncManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E9FF197C18071EDB732CC0 /* iCloudSyncManager.swift */; };
 		6DA6F31B69A00C47AB8B8129 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2536871C81C2A5E4672A5D75 /* main.swift */; };
 		889D1E77BEF729D656866718 /* EyedropperService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58D52EC02459AFB144BE2C0 /* EyedropperService.swift */; };
+		9926B02F313E407C8322DDD5 /* SwatchWidgets.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = BB5CE0FDF302C3E00DA18ADF /* SwatchWidgets.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		B78B7B59A76D1BC63EAF99DB /* SwatchWidgets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00EA5A97C4B0D0ADE2EE35BC /* SwatchWidgets.swift */; };
 		C1C7DB143DCD6E6731CE63CA /* ColorPalette.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96A9DB361F5D8B0F207A893 /* ColorPalette.swift */; };
 		CE66E695FA2E4838D2B724DC /* ColorBlindnessSimulator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD2FD52B044B34A9689A6FA /* ColorBlindnessSimulator.swift */; };
 		D596DB3F86D32362724756C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4603643DDA999DD4B87FDB2 /* AppDelegate.swift */; };
 		E94BA92A236E1C4DA12FA971 /* ColorStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34C16D69B84B1D9459C7CF1 /* ColorStore.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		F8EC8B744CB3ADCC50A970C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7C8B6D53B5089BB0114EDF84 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B5171046B2F417FBA6025E7;
+			remoteInfo = SwatchWidgets;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DCFC8862FEB34EAA64EE81BE /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				9926B02F313E407C8322DDD5 /* SwatchWidgets.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		00EA5A97C4B0D0ADE2EE35BC /* SwatchWidgets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwatchWidgets.swift; sourceTree = "<group>"; };
 		04E87EB423D8CE25A550EF16 /* ColorConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorConverter.swift; sourceTree = "<group>"; };
 		1C1CB8C6F1D94B9D07632FD6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		24CB2E2C02132D5EF190FD4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		2536871C81C2A5E4672A5D75 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		4B0FAD5A1C30E4FD7A55134F /* SwatchWidgets.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwatchWidgets.entitlements; sourceTree = "<group>"; };
 		4BD2FD52B044B34A9689A6FA /* ColorBlindnessSimulator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorBlindnessSimulator.swift; sourceTree = "<group>"; };
 		767C1A3AF5559A62ECBDDD58 /* Swatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		881B30D6D5496B109F4B5EFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		B01861B443DE9CFACD9D3C36 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		BB5CE0FDF302C3E00DA18ADF /* SwatchWidgets.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = SwatchWidgets.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4603643DDA999DD4B87FDB2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D34C16D69B84B1D9459C7CF1 /* ColorStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorStore.swift; sourceTree = "<group>"; };
 		D58D52EC02459AFB144BE2C0 /* EyedropperService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EyedropperService.swift; sourceTree = "<group>"; };
@@ -44,15 +76,27 @@
 			children = (
 				4BD2FD52B044B34A9689A6FA /* ColorBlindnessSimulator.swift */,
 				D9E9FF197C18071EDB732CC0 /* iCloudSyncManager.swift */,
+				B01861B443DE9CFACD9D3C36 /* NotificationManager.swift */,
 				FB167005CDA450D1BEA0BD60 /* ShortcutsManager.swift */,
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		8DBC15B79C8CF91745CDD852 /* SwatchWidgets */ = {
+			isa = PBXGroup;
+			children = (
+				24CB2E2C02132D5EF190FD4E /* Info.plist */,
+				4B0FAD5A1C30E4FD7A55134F /* SwatchWidgets.entitlements */,
+				00EA5A97C4B0D0ADE2EE35BC /* SwatchWidgets.swift */,
+			);
+			path = SwatchWidgets;
 			sourceTree = "<group>";
 		};
 		B528C848D570169E4A758C01 = {
 			isa = PBXGroup;
 			children = (
 				DA521033FAD70FF52115B657 /* Swatch */,
+				8DBC15B79C8CF91745CDD852 /* SwatchWidgets */,
 				ECF27698CB47238A8D0C2463 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -79,6 +123,7 @@
 			isa = PBXGroup;
 			children = (
 				767C1A3AF5559A62ECBDDD58 /* Swatch.app */,
+				BB5CE0FDF302C3E00DA18ADF /* SwatchWidgets.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -86,15 +131,32 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		0B5171046B2F417FBA6025E7 /* SwatchWidgets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E0B57AF988AA3B41B5DF7E4 /* Build configuration list for PBXNativeTarget "SwatchWidgets" */;
+			buildPhases = (
+				CF1327210E9CC978BC22601A /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwatchWidgets;
+			productName = SwatchWidgets;
+			productReference = BB5CE0FDF302C3E00DA18ADF /* SwatchWidgets.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		6CEB66D79CE396763178A892 /* Swatch */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 699A8C760AC331D725A9D3ED /* Build configuration list for PBXNativeTarget "Swatch" */;
 			buildPhases = (
 				0DFDC182941ED20C7BA4C635 /* Sources */,
+				DCFC8862FEB34EAA64EE81BE /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				BDE6F199891FB96D0FF8B899 /* PBXTargetDependency */,
 			);
 			name = Swatch;
 			productName = Swatch;
@@ -110,6 +172,10 @@
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
+					0B5171046B2F417FBA6025E7 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Manual;
+					};
 					6CEB66D79CE396763178A892 = {
 						DevelopmentTeam = "";
 						ProvisioningStyle = Manual;
@@ -129,6 +195,7 @@
 			projectRoot = "";
 			targets = (
 				6CEB66D79CE396763178A892 /* Swatch */,
+				0B5171046B2F417FBA6025E7 /* SwatchWidgets */,
 			);
 		};
 /* End PBXProject section */
@@ -145,6 +212,7 @@
 				E94BA92A236E1C4DA12FA971 /* ColorStore.swift in Sources */,
 				5A90164E80BDAAA3258CFED9 /* ContentView.swift in Sources */,
 				889D1E77BEF729D656866718 /* EyedropperService.swift in Sources */,
+				15C0E151C5761F7F949B67F5 /* NotificationManager.swift in Sources */,
 				5DF85398FA1D7AA07796087D /* ShortcutsManager.swift in Sources */,
 				443BB0B09C02281E8627E0EE /* SwatchColor.swift in Sources */,
 				1A712442476B165C02EE30CD /* Theme.swift in Sources */,
@@ -153,7 +221,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CF1327210E9CC978BC22601A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B78B7B59A76D1BC63EAF99DB /* SwatchWidgets.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BDE6F199891FB96D0FF8B899 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0B5171046B2F417FBA6025E7 /* SwatchWidgets */;
+			targetProxy = F8EC8B744CB3ADCC50A970C3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		1697C709591D5151EFD09DF0 /* Release */ = {
@@ -253,6 +337,46 @@
 			};
 			name = Debug;
 		};
+		770EC6E5794891AAC9552A18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = SwatchWidgets/SwatchWidgets.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = SwatchWidgets/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swatch.app.widgets;
+				PRODUCT_NAME = SwatchWidgets;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.9;
+			};
+			name = Debug;
+		};
+		A7E7B4E714682D9DF1D24D7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = SwatchWidgets/SwatchWidgets.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = SwatchWidgets/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swatch.app.widgets;
+				PRODUCT_NAME = SwatchWidgets;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.9;
+			};
+			name = Release;
+		};
 		F1797F907E06E6A021D3FE01 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -320,6 +444,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		2E0B57AF988AA3B41B5DF7E4 /* Build configuration list for PBXNativeTarget "SwatchWidgets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				770EC6E5794891AAC9552A18 /* Debug */,
+				A7E7B4E714682D9DF1D24D7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
 		699A8C760AC331D725A9D3ED /* Build configuration list for PBXNativeTarget "Swatch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

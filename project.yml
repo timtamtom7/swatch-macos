@@ -52,3 +52,45 @@ targets:
       properties:
         com.apple.security.app-sandbox: true
         com.apple.security.files.user-selected.read-write: true
+        com.apple.security.application-groups:
+          - group.com.swatch.app
+    dependencies:
+      - target: SwatchWidgets
+        embed: true
+
+  SwatchWidgets:
+    type: app-extension
+    platform: macOS
+    sources:
+      - path: SwatchWidgets
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.swatch.app.widgets
+        PRODUCT_NAME: SwatchWidgets
+        LD_RUNPATH_SEARCH_PATHS: "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks"
+        SKIP_INSTALL: YES
+        SWIFT_VERSION: "5.9"
+        MACOSX_DEPLOYMENT_TARGET: "13.0"
+        CODE_SIGN_IDENTITY: "-"
+        CODE_SIGN_STYLE: Manual
+        DEVELOPMENT_TEAM: ""
+        ENABLE_HARDENED_RUNTIME: YES
+    info:
+      path: SwatchWidgets/Info.plist
+      properties:
+        CFBundleName: SwatchWidgets
+        CFBundleDisplayName: Swatch Widgets
+        CFBundleIdentifier: com.swatch.app.widgets
+        CFBundleVersion: "1"
+        CFBundleShortVersionString: "1.0.0"
+        CFBundlePackageType: XPC!
+        CFBundleExecutable: SwatchWidgets
+        LSMinimumSystemVersion: "13.0"
+        NSExtension:
+          NSExtensionPointIdentifier: com.apple.widgetkit-extension
+    entitlements:
+      path: SwatchWidgets/SwatchWidgets.entitlements
+      properties:
+        com.apple.security.app-sandbox: true
+        com.apple.security.application-groups:
+          - group.com.swatch.app

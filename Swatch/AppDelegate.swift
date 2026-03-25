@@ -1,5 +1,6 @@
 import AppKit
 import SwiftUI
+import UserNotifications
 
 @MainActor
 class AppDelegate: NSObject, NSApplicationDelegate {
@@ -16,6 +17,12 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         setupStatusItem()
         setupPopover()
         setupGlobalHotkey()
+        setupNotifications()
+    }
+    
+    private func setupNotifications() {
+        UNUserNotificationCenter.current().delegate = NotificationManager.shared
+        NotificationManager.shared.requestAuthorization()
     }
 
     private func setupMenu() {
