@@ -18,11 +18,21 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         setupPopover()
         setupGlobalHotkey()
         setupNotifications()
+        
+        // Show onboarding on first launch
+        if !UserDefaults.standard.bool(forKey: "onboardingCompleted") {
+            showOnboarding()
+        }
     }
     
     private func setupNotifications() {
         UNUserNotificationCenter.current().delegate = NotificationManager.shared
         NotificationManager.shared.requestAuthorization()
+    }
+    
+    private func showOnboarding() {
+        // Onboarding will be shown when popover opens
+        UserDefaults.standard.set(true, forKey: "showOnboardingNextLaunch")
     }
 
     private func setupMenu() {
