@@ -1,0 +1,54 @@
+name: Swatch
+options:
+  bundleIdPrefix: com.swatch
+  deploymentTarget:
+    macOS: "13.0"
+  xcodeVersion: "15.0"
+  generateEmptyDirectories: true
+
+settings:
+  base:
+    PRODUCT_NAME: Swatch
+    MARKETING_VERSION: "1.0.0"
+    CURRENT_PROJECT_VERSION: "1"
+    SWIFT_VERSION: "5.9"
+    MACOSX_DEPLOYMENT_TARGET: "13.0"
+    CODE_SIGN_IDENTITY: "-"
+    CODE_SIGN_STYLE: Manual
+    DEVELOPMENT_TEAM: ""
+    ENABLE_HARDENED_RUNTIME: YES
+    INFOPLIST_FILE: Swatch/Info.plist
+    CODE_SIGN_ENTITLEMENTS: Swatch/Swatch.entitlements
+
+targets:
+  Swatch:
+    type: application
+    platform: macOS
+    sources:
+      - path: Swatch
+        excludes:
+          - "*.entitlements"
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.swatch.app
+        LD_RUNPATH_SEARCH_PATHS: "$(inherited) @executable_path/../Frameworks"
+        COMBINE_HIDPI_IMAGES: YES
+    info:
+      path: Swatch/Info.plist
+      properties:
+        CFBundleName: Swatch
+        CFBundleDisplayName: Swatch
+        CFBundleIdentifier: com.swatch.app
+        CFBundleVersion: "1"
+        CFBundleShortVersionString: "1.0.0"
+        CFBundlePackageType: APPL
+        CFBundleExecutable: Swatch
+        LSMinimumSystemVersion: "13.0"
+        LSUIElement: true
+        NSHighResolutionCapable: true
+        NSPrincipalClass: NSApplication
+    entitlements:
+      path: Swatch/Swatch.entitlements
+      properties:
+        com.apple.security.app-sandbox: true
+        com.apple.security.files.user-selected.read-write: true
