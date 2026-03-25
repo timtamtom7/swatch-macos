@@ -18,6 +18,7 @@
 		6C47056D36879BCD420512D5 /* AccessibilityExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 415FC66FCA7F0AA3F1A57FB0 /* AccessibilityExtensions.swift */; };
 		6DA6F31B69A00C47AB8B8129 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2536871C81C2A5E4672A5D75 /* main.swift */; };
 		889D1E77BEF729D656866718 /* EyedropperService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58D52EC02459AFB144BE2C0 /* EyedropperService.swift */; };
+		9635F2BE424251E58861A067 /* ExportService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FDE99C5868DCCFC57A443D /* ExportService.swift */; };
 		9926B02F313E407C8322DDD5 /* SwatchWidgets.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = BB5CE0FDF302C3E00DA18ADF /* SwatchWidgets.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		B78B7B59A76D1BC63EAF99DB /* SwatchWidgets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00EA5A97C4B0D0ADE2EE35BC /* SwatchWidgets.swift */; };
 		C1C7DB143DCD6E6731CE63CA /* ColorPalette.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96A9DB361F5D8B0F207A893 /* ColorPalette.swift */; };
@@ -65,6 +66,7 @@
 		881B30D6D5496B109F4B5EFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		B01861B443DE9CFACD9D3C36 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
 		BB5CE0FDF302C3E00DA18ADF /* SwatchWidgets.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = SwatchWidgets.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0FDE99C5868DCCFC57A443D /* ExportService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExportService.swift; sourceTree = "<group>"; };
 		C4603643DDA999DD4B87FDB2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D34C16D69B84B1D9459C7CF1 /* ColorStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorStore.swift; sourceTree = "<group>"; };
 		D3F637AB9C77DA9B59193407 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
@@ -117,6 +119,7 @@
 				D96A9DB361F5D8B0F207A893 /* ColorPalette.swift */,
 				D34C16D69B84B1D9459C7CF1 /* ColorStore.swift */,
 				1C1CB8C6F1D94B9D07632FD6 /* ContentView.swift */,
+				C0FDE99C5868DCCFC57A443D /* ExportService.swift */,
 				D58D52EC02459AFB144BE2C0 /* EyedropperService.swift */,
 				881B30D6D5496B109F4B5EFF /* Info.plist */,
 				2536871C81C2A5E4672A5D75 /* main.swift */,
@@ -233,6 +236,7 @@
 				C1C7DB143DCD6E6731CE63CA /* ColorPalette.swift in Sources */,
 				E94BA92A236E1C4DA12FA971 /* ColorStore.swift in Sources */,
 				5A90164E80BDAAA3258CFED9 /* ContentView.swift in Sources */,
+				9635F2BE424251E58861A067 /* ExportService.swift in Sources */,
 				889D1E77BEF729D656866718 /* EyedropperService.swift in Sources */,
 				15C0E151C5761F7F949B67F5 /* NotificationManager.swift in Sources */,
 				32B475B3E5D80B4A933B1BCE /* OnboardingView.swift in Sources */,
