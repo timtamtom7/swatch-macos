@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		15C0E151C5761F7F949B67F5 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01861B443DE9CFACD9D3C36 /* NotificationManager.swift */; };
 		1A712442476B165C02EE30CD /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7BD66D6255277A0BEC447BC /* Theme.swift */; };
-		32B475B3E5D80B4A933B1BCE /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F637AB9C77DA9B59193407 /* OnboardingView.swift */; };
 		3E28A9EB36EED45D40A8E603 /* ColorConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E87EB423D8CE25A550EF16 /* ColorConverter.swift */; };
 		443BB0B09C02281E8627E0EE /* SwatchColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC44DAED152F92920C1DA533 /* SwatchColor.swift */; };
 		5A90164E80BDAAA3258CFED9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1CB8C6F1D94B9D07632FD6 /* ContentView.swift */; };
@@ -24,7 +23,6 @@
 		CE66E695FA2E4838D2B724DC /* ColorBlindnessSimulator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD2FD52B044B34A9689A6FA /* ColorBlindnessSimulator.swift */; };
 		D596DB3F86D32362724756C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4603643DDA999DD4B87FDB2 /* AppDelegate.swift */; };
 		E94BA92A236E1C4DA12FA971 /* ColorStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34C16D69B84B1D9459C7CF1 /* ColorStore.swift */; };
-		F13560E8A216A18CDC59389D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 422FDA3C67299CF50EB32D22 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,7 +56,6 @@
 		24CB2E2C02132D5EF190FD4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		2536871C81C2A5E4672A5D75 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		415FC66FCA7F0AA3F1A57FB0 /* AccessibilityExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityExtensions.swift; sourceTree = "<group>"; };
-		422FDA3C67299CF50EB32D22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4B0FAD5A1C30E4FD7A55134F /* SwatchWidgets.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwatchWidgets.entitlements; sourceTree = "<group>"; };
 		4BD2FD52B044B34A9689A6FA /* ColorBlindnessSimulator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorBlindnessSimulator.swift; sourceTree = "<group>"; };
 		767C1A3AF5559A62ECBDDD58 /* Swatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -67,7 +64,6 @@
 		BB5CE0FDF302C3E00DA18ADF /* SwatchWidgets.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = SwatchWidgets.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4603643DDA999DD4B87FDB2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D34C16D69B84B1D9459C7CF1 /* ColorStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorStore.swift; sourceTree = "<group>"; };
-		D3F637AB9C77DA9B59193407 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		D58D52EC02459AFB144BE2C0 /* EyedropperService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EyedropperService.swift; sourceTree = "<group>"; };
 		D7BD66D6255277A0BEC447BC /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		D96A9DB361F5D8B0F207A893 /* ColorPalette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPalette.swift; sourceTree = "<group>"; };
@@ -112,7 +108,6 @@
 			children = (
 				415FC66FCA7F0AA3F1A57FB0 /* AccessibilityExtensions.swift */,
 				C4603643DDA999DD4B87FDB2 /* AppDelegate.swift */,
-				422FDA3C67299CF50EB32D22 /* Assets.xcassets */,
 				04E87EB423D8CE25A550EF16 /* ColorConverter.swift */,
 				D96A9DB361F5D8B0F207A893 /* ColorPalette.swift */,
 				D34C16D69B84B1D9459C7CF1 /* ColorStore.swift */,
@@ -120,7 +115,6 @@
 				D58D52EC02459AFB144BE2C0 /* EyedropperService.swift */,
 				881B30D6D5496B109F4B5EFF /* Info.plist */,
 				2536871C81C2A5E4672A5D75 /* main.swift */,
-				D3F637AB9C77DA9B59193407 /* OnboardingView.swift */,
 				DC44DAED152F92920C1DA533 /* SwatchColor.swift */,
 				D7BD66D6255277A0BEC447BC /* Theme.swift */,
 				2C128340182215102577DEB0 /* Services */,
@@ -160,7 +154,6 @@
 			buildConfigurationList = 699A8C760AC331D725A9D3ED /* Build configuration list for PBXNativeTarget "Swatch" */;
 			buildPhases = (
 				0DFDC182941ED20C7BA4C635 /* Sources */,
-				0F01D5032DCF161ECA3E7D0D /* Resources */,
 				DCFC8862FEB34EAA64EE81BE /* Embed Foundation Extensions */,
 			);
 			buildRules = (
@@ -210,17 +203,6 @@
 		};
 /* End PBXProject section */
 
-/* Begin PBXResourcesBuildPhase section */
-		0F01D5032DCF161ECA3E7D0D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F13560E8A216A18CDC59389D /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
 		0DFDC182941ED20C7BA4C635 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -235,7 +217,6 @@
 				5A90164E80BDAAA3258CFED9 /* ContentView.swift in Sources */,
 				889D1E77BEF729D656866718 /* EyedropperService.swift in Sources */,
 				15C0E151C5761F7F949B67F5 /* NotificationManager.swift in Sources */,
-				32B475B3E5D80B4A933B1BCE /* OnboardingView.swift in Sources */,
 				5DF85398FA1D7AA07796087D /* ShortcutsManager.swift in Sources */,
 				443BB0B09C02281E8627E0EE /* SwatchColor.swift in Sources */,
 				1A712442476B165C02EE30CD /* Theme.swift in Sources */,
