@@ -9,6 +9,9 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     private var globalHotkeyMonitor: Any?
 
     func applicationDidFinishLaunching(_ notification: Notification) {
+        // Initialize SwatchState for shortcuts
+        SwatchState.shared.configure()
+
         setupMenu()
         setupStatusItem()
         setupPopover()
@@ -147,5 +150,20 @@ class AppDelegate: NSObject, NSApplicationDelegate {
                 onCancel: {}
             )
         }
+    }
+}
+
+// MARK: - Global State for Shortcuts
+
+@MainActor
+final class SwatchState {
+    static let shared = SwatchState()
+
+    var store: ColorStore? { ColorStore.shared }
+
+    private init() {}
+
+    func configure() {
+        // Initialize any state needed for shortcuts
     }
 }

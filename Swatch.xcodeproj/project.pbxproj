@@ -11,9 +11,12 @@
 		3E28A9EB36EED45D40A8E603 /* ColorConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E87EB423D8CE25A550EF16 /* ColorConverter.swift */; };
 		443BB0B09C02281E8627E0EE /* SwatchColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC44DAED152F92920C1DA533 /* SwatchColor.swift */; };
 		5A90164E80BDAAA3258CFED9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1CB8C6F1D94B9D07632FD6 /* ContentView.swift */; };
+		5DF85398FA1D7AA07796087D /* ShortcutsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB167005CDA450D1BEA0BD60 /* ShortcutsManager.swift */; };
+		67FA82DB66187D3CF379E482 /* iCloudSyncManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E9FF197C18071EDB732CC0 /* iCloudSyncManager.swift */; };
 		6DA6F31B69A00C47AB8B8129 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2536871C81C2A5E4672A5D75 /* main.swift */; };
 		889D1E77BEF729D656866718 /* EyedropperService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58D52EC02459AFB144BE2C0 /* EyedropperService.swift */; };
 		C1C7DB143DCD6E6731CE63CA /* ColorPalette.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96A9DB361F5D8B0F207A893 /* ColorPalette.swift */; };
+		CE66E695FA2E4838D2B724DC /* ColorBlindnessSimulator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD2FD52B044B34A9689A6FA /* ColorBlindnessSimulator.swift */; };
 		D596DB3F86D32362724756C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4603643DDA999DD4B87FDB2 /* AppDelegate.swift */; };
 		E94BA92A236E1C4DA12FA971 /* ColorStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34C16D69B84B1D9459C7CF1 /* ColorStore.swift */; };
 /* End PBXBuildFile section */
@@ -22,6 +25,7 @@
 		04E87EB423D8CE25A550EF16 /* ColorConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorConverter.swift; sourceTree = "<group>"; };
 		1C1CB8C6F1D94B9D07632FD6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2536871C81C2A5E4672A5D75 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		4BD2FD52B044B34A9689A6FA /* ColorBlindnessSimulator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorBlindnessSimulator.swift; sourceTree = "<group>"; };
 		767C1A3AF5559A62ECBDDD58 /* Swatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		881B30D6D5496B109F4B5EFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		C4603643DDA999DD4B87FDB2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -29,10 +33,22 @@
 		D58D52EC02459AFB144BE2C0 /* EyedropperService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EyedropperService.swift; sourceTree = "<group>"; };
 		D7BD66D6255277A0BEC447BC /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		D96A9DB361F5D8B0F207A893 /* ColorPalette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPalette.swift; sourceTree = "<group>"; };
+		D9E9FF197C18071EDB732CC0 /* iCloudSyncManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iCloudSyncManager.swift; sourceTree = "<group>"; };
 		DC44DAED152F92920C1DA533 /* SwatchColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwatchColor.swift; sourceTree = "<group>"; };
+		FB167005CDA450D1BEA0BD60 /* ShortcutsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortcutsManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
+		2C128340182215102577DEB0 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				4BD2FD52B044B34A9689A6FA /* ColorBlindnessSimulator.swift */,
+				D9E9FF197C18071EDB732CC0 /* iCloudSyncManager.swift */,
+				FB167005CDA450D1BEA0BD60 /* ShortcutsManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		B528C848D570169E4A758C01 = {
 			isa = PBXGroup;
 			children = (
@@ -54,6 +70,7 @@
 				2536871C81C2A5E4672A5D75 /* main.swift */,
 				DC44DAED152F92920C1DA533 /* SwatchColor.swift */,
 				D7BD66D6255277A0BEC447BC /* Theme.swift */,
+				2C128340182215102577DEB0 /* Services */,
 			);
 			path = Swatch;
 			sourceTree = "<group>";
@@ -122,13 +139,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				D596DB3F86D32362724756C3 /* AppDelegate.swift in Sources */,
+				CE66E695FA2E4838D2B724DC /* ColorBlindnessSimulator.swift in Sources */,
 				3E28A9EB36EED45D40A8E603 /* ColorConverter.swift in Sources */,
 				C1C7DB143DCD6E6731CE63CA /* ColorPalette.swift in Sources */,
 				E94BA92A236E1C4DA12FA971 /* ColorStore.swift in Sources */,
 				5A90164E80BDAAA3258CFED9 /* ContentView.swift in Sources */,
 				889D1E77BEF729D656866718 /* EyedropperService.swift in Sources */,
+				5DF85398FA1D7AA07796087D /* ShortcutsManager.swift in Sources */,
 				443BB0B09C02281E8627E0EE /* SwatchColor.swift in Sources */,
 				1A712442476B165C02EE30CD /* Theme.swift in Sources */,
+				67FA82DB66187D3CF379E482 /* iCloudSyncManager.swift in Sources */,
 				6DA6F31B69A00C47AB8B8129 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
