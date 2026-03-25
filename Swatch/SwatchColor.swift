@@ -100,4 +100,35 @@ struct SwatchColor: Identifiable {
         String(format: "cmyk(%.0f%%, %.0f%%, %.0f%%, %.0f%%)",
                cmyk.c * 100, cmyk.m * 100, cmyk.y * 100, cmyk.k * 100)
     }
+
+    // MARK: - Initializers
+
+    init(hue: Double, saturation: Double, brightness: Double) {
+        self.id = UUID()
+        self.createdAt = Date()
+        self.name = nil
+        let rgbVal = ColorConverter.hsbToRGB((h: hue, s: saturation, b: brightness))
+        self.rgb = RGB(r: rgbVal.r, g: rgbVal.g, b: rgbVal.b)
+        self.hsb = HSB(h: hue, s: saturation, b: brightness)
+        let cmykVal = ColorConverter.rgbToCMYK(rgbVal)
+        self.cmyk = CMYK(c: cmykVal.c, m: cmykVal.m, y: cmykVal.y, k: cmykVal.k)
+        self.hex = ColorConverter.rgbToHex(rgbVal)
+    }
+
+    // MARK: - Relative Luminance (WCAG)
+
+    var relativeLuminance: Double {
+        let r = linearize(Double(rgb.r) / 255.0)
+        let g = linearize(Double(rgb.g) / 255.0)
+        let b = linearize(Double(rgb.b) / 255.0)
+        return 0.2126 * r + 0.7152 * g + 0.0722 * b
+    }
+
+    private func linearize(_ value: Double) -> Double {
+        if value <= 0.03928 {
+            return value / 12.92
+        } else {
+            return pow((value + 0.055) / 1.055, 2.4)
+        }
+    }
 }

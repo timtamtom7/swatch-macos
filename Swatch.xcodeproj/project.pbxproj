@@ -13,6 +13,7 @@
 		5A90164E80BDAAA3258CFED9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1CB8C6F1D94B9D07632FD6 /* ContentView.swift */; };
 		6DA6F31B69A00C47AB8B8129 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2536871C81C2A5E4672A5D75 /* main.swift */; };
 		889D1E77BEF729D656866718 /* EyedropperService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58D52EC02459AFB144BE2C0 /* EyedropperService.swift */; };
+		C1C7DB143DCD6E6731CE63CA /* ColorPalette.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96A9DB361F5D8B0F207A893 /* ColorPalette.swift */; };
 		D596DB3F86D32362724756C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4603643DDA999DD4B87FDB2 /* AppDelegate.swift */; };
 		E94BA92A236E1C4DA12FA971 /* ColorStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34C16D69B84B1D9459C7CF1 /* ColorStore.swift */; };
 /* End PBXBuildFile section */
@@ -27,6 +28,7 @@
 		D34C16D69B84B1D9459C7CF1 /* ColorStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorStore.swift; sourceTree = "<group>"; };
 		D58D52EC02459AFB144BE2C0 /* EyedropperService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EyedropperService.swift; sourceTree = "<group>"; };
 		D7BD66D6255277A0BEC447BC /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		D96A9DB361F5D8B0F207A893 /* ColorPalette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPalette.swift; sourceTree = "<group>"; };
 		DC44DAED152F92920C1DA533 /* SwatchColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwatchColor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -44,6 +46,7 @@
 			children = (
 				C4603643DDA999DD4B87FDB2 /* AppDelegate.swift */,
 				04E87EB423D8CE25A550EF16 /* ColorConverter.swift */,
+				D96A9DB361F5D8B0F207A893 /* ColorPalette.swift */,
 				D34C16D69B84B1D9459C7CF1 /* ColorStore.swift */,
 				1C1CB8C6F1D94B9D07632FD6 /* ContentView.swift */,
 				D58D52EC02459AFB144BE2C0 /* EyedropperService.swift */,
@@ -120,6 +123,7 @@
 			files = (
 				D596DB3F86D32362724756C3 /* AppDelegate.swift in Sources */,
 				3E28A9EB36EED45D40A8E603 /* ColorConverter.swift in Sources */,
+				C1C7DB143DCD6E6731CE63CA /* ColorPalette.swift in Sources */,
 				E94BA92A236E1C4DA12FA971 /* ColorStore.swift in Sources */,
 				5A90164E80BDAAA3258CFED9 /* ContentView.swift in Sources */,
 				889D1E77BEF729D656866718 /* EyedropperService.swift in Sources */,

@@ -73,4 +73,38 @@ enum ColorConverter {
 
         return (c: c, m: m, y: y, k: k)
     }
+
+    static func hsbToRGB(_ hsb: (h: Double, s: Double, b: Double)) -> (r: Int, g: Int, b: Int) {
+        let h = hsb.h / 360.0
+        let s = hsb.s
+        let v = hsb.b
+
+        if s == 0 {
+            let gray = Int(v * 255)
+            return (r: gray, g: gray, b: gray)
+        }
+
+        let i = Int(h * 6)
+        let f = h * 6 - Double(i)
+        let p = v * (1 - s)
+        let q = v * (1 - f * s)
+        let t = v * (1 - (1 - f) * s)
+
+        var r, g, b: Double
+        switch i % 6 {
+        case 0: r = v; g = t; b = p
+        case 1: r = q; g = v; b = p
+        case 2: r = p; g = v; b = t
+        case 3: r = p; g = q; b = v
+        case 4: r = t; g = p; b = v
+        case 5: r = v; g = p; b = q
+        default: r = v; g = t; b = p
+        }
+
+        return (
+            r: Int(r * 255),
+            g: Int(g * 255),
+            b: Int(b * 255)
+        )
+    }
 }
