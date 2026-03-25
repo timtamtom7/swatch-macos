@@ -1,0 +1,95 @@
+/* General */
+"Swatch" = "Swatch";
+"About" = "について";
+"Settings" = "設定";
+"Cancel" = "キャンセル";
+"Done" = "完了";
+"Continue" = "続ける";
+"Skip" = "スキップ";
+"Get Started" = "始める";
+"Clear" = "クリア";
+"Delete" = "削除";
+"Create" = "作成";
+"Copy" = "コピー";
+"Export" = "エクスポート";
+"Save" = "保存";
+"OK" = "OK";
+"Error" = "エラー";
+"Warning" = "警告";
+"Success" = "成功";
+
+/* Color Picker */
+"Pick Screen Color" = "画面の色を選択";
+"Copy to Clipboard" = "クリップボードにコピー";
+"HEX" = "HEX";
+"RGB" = "RGB";
+"HSB" = "HSB";
+"CMYK" = "CMYK";
+"Swift" = "Swift";
+"NSColor" = "NSColor";
+"Copy HEX" = "HEXをコピー";
+"Copy RGB" = "RGBをコピー";
+"Copy Swift" = "Swiftをコピー";
+"Pick a Color" = "色を選択";
+
+/* Eyedropper */
+"Eye Dropper" = "スポイト";
+"Pick Color" = "色を選択";
+
+/* Palettes */
+"Palettes" = "パレット";
+"Create Palette" = "パレットを作成";
+"Create First Palette" = "最初のパレットを作成";
+"New Palette" = "新しいパレット";
+"Palette name" = "パレット名";
+"No palettes yet" = "パレットがありません";
+"No colors in this palette" = "このパレットに色がありません";
+"Add to Palette" = "パレットに追加";
+"Add current color to palette" = "現在選択中の色をパレットに追加";
+"Palette %@" = "パレット %@";
+"%d colors" = "%d 色";
+
+/* History */
+"History" = "履歴";
+"Clear History" = "履歴をクリア";
+"Color history item %d of %d" = "履歴の色 %d / %d";
+"No colors yet" = "色がありません";
+
+/* Harmony */
+"Harmony" = "ハーモニー";
+"Color Harmony" = "カラーハーモニー";
+"Complementary" = "補色";
+"Triadic" = "三色配色";
+"Analogous" = "類似色";
+"Split Complementary" = "分裂補色";
+"Tetradic" = "四角配色";
+
+/* Contrast */
+"Contrast" = "コントラスト";
+"WCAG Contrast Checker" = "WCAGコントラストチェッカー";
+"Contrast Ratio" = "コントラスト比";
+"Foreground" = "前景色";
+"Background" = "背景色";
+"AA Normal" = "AA 普通";
+"AA Large" = "AA 大";
+"AAA Normal" = "AAA 普通";
+"AAA Large" = "AAA 大";
+"pass" = "合格";
+"fail" = "不合格";
+
+/* Onboarding */
+"Welcome to Swatch" = "Swatchへようこそ";
+"Your color companion in the menu bar" = "メニューバーに住在するカラーコンパニオン";
+"Pick any color from your screen" = "画面から任意の色を選択";
+"Save colors you love into palettes" = "好きな色をパレットに保存";
+
+/* Notifications */
+"Color of the Day" = "今日の色";
+"Weekly Palette Digest" = "週間パレットダイジェスト";
+"Color Added" = "色を追加しました";
+"Added %@ to %@" = "%@を%@に追加しました";
+
+/* Accessibility */
+"Accessibility Options" = "アクセシビリティオプション";
+"Keyboard Shortcuts" = "キーボードショートカット";
+"Swatch supports VoiceOver, Dynamic Type, and Keyboard Navigation" = "SwatchはVoiceOver、Dynamic Type、キーボードナビゲーションをサポートしています";

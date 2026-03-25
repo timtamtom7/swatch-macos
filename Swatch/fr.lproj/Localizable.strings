@@ -1,0 +1,95 @@
+/* General */
+"Swatch" = "Swatch";
+"About" = "À propos";
+"Settings" = "Paramètres";
+"Cancel" = "Annuler";
+"Done" = "Terminé";
+"Continue" = "Continuer";
+"Skip" = "Passer";
+"Get Started" = "Commencer";
+"Clear" = "Effacer";
+"Delete" = "Supprimer";
+"Create" = "Créer";
+"Copy" = "Copier";
+"Export" = "Exporter";
+"Save" = "Enregistrer";
+"OK" = "OK";
+"Error" = "Erreur";
+"Warning" = "Avertissement";
+"Success" = "Succès";
+
+/* Color Picker */
+"Pick Screen Color" = "Sélectionner la couleur de l'écran";
+"Copy to Clipboard" = "Copier dans le presse-papiers";
+"HEX" = "HEX";
+"RGB" = "RVB";
+"HSB" = "TSB";
+"CMYK" = "CMJN";
+"Swift" = "Swift";
+"NSColor" = "NSColor";
+"Copy HEX" = "Copier HEX";
+"Copy RGB" = "Copier RVB";
+"Copy Swift" = "Copier Swift";
+"Pick a Color" = "Choisir une couleur";
+
+/* Eyedropper */
+"Eye Dropper" = "Pipette";
+"Pick Color" = "Choisir une couleur";
+
+/* Palettes */
+"Palettes" = "Palettes";
+"Create Palette" = "Créer une palette";
+"Create First Palette" = "Créer une première palette";
+"New Palette" = "Nouvelle palette";
+"Palette name" = "Nom de la palette";
+"No palettes yet" = "Pas encore de palettes";
+"No colors in this palette" = "Pas de couleurs dans cette palette";
+"Add to Palette" = "Ajouter à la palette";
+"Add current color to palette" = "Ajouter la couleur actuelle à la palette";
+"Palette %@" = "Palette %@";
+"%d colors" = "%d couleurs";
+
+/* History */
+"History" = "Historique";
+"Clear History" = "Effacer l'historique";
+"Color history item %d of %d" = "Couleur historique %d sur %d";
+"No colors yet" = "Pas encore de couleurs";
+
+/* Harmony */
+"Harmony" = "Harmonie";
+"Color Harmony" = "Harmonie des couleurs";
+"Complementary" = "Complémentaire";
+"Triadic" = "Triadique";
+"Analogous" = "Analogue";
+"Split Complementary" = "Complémentaire divisé";
+"Tetradic" = "Tétradique";
+
+/* Contrast */
+"Contrast" = "Contraste";
+"WCAG Contrast Checker" = "Vérificateur de contraste WCAG";
+"Contrast Ratio" = "Rapport de contraste";
+"Foreground" = "Premier plan";
+"Background" = "Arrière-plan";
+"AA Normal" = "AA Normal";
+"AA Large" = "AA Grand";
+"AAA Normal" = "AAA Normal";
+"AAA Large" = "AAA Grand";
+"pass" = "réussi";
+"fail" = "échoué";
+
+/* Onboarding */
+"Welcome to Swatch" = "Bienvenue à Swatch";
+"Your color companion in the menu bar" = "Votre compagnon couleur dans la barre de menus";
+"Pick any color from your screen" = "Sélectionnez n'importe quelle couleur de votre écran";
+"Save colors you love into palettes" = "Enregistrez les couleurs que vous aimez dans des palettes";
+
+/* Notifications */
+"Color of the Day" = "Couleur du jour";
+"Weekly Palette Digest" = "Résumé hebdomadaire des palettes";
+"Color Added" = "Couleur ajoutée";
+"Added %@ to %@" = "%@ ajouté à %@";
+
+/* Accessibility */
+"Accessibility Options" = "Options d'accessibilité";
+"Keyboard Shortcuts" = "Raccourcis clavier";
+"Swatch supports VoiceOver, Dynamic Type, and Keyboard Navigation" = "Swatch prend en charge VoiceOver, Dynamic Type et la navigation au clavier";

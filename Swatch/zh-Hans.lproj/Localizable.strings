@@ -1,0 +1,95 @@
+/* General */
+"Swatch" = "Swatch";
+"About" = "关于";
+"Settings" = "设置";
+"Cancel" = "取消";
+"Done" = "完成";
+"Continue" = "继续";
+"Skip" = "跳过";
+"Get Started" = "开始使用";
+"Clear" = "清除";
+"Delete" = "删除";
+"Create" = "创建";
+"Copy" = "复制";
+"Export" = "导出";
+"Save" = "保存";
+"OK" = "确定";
+"Error" = "错误";
+"Warning" = "警告";
+"Success" = "成功";
+
+/* Color Picker */
+"Pick Screen Color" = "选取屏幕颜色";
+"Copy to Clipboard" = "复制到剪贴板";
+"HEX" = "HEX";
+"RGB" = "RGB";
+"HSB" = "HSB";
+"CMYK" = "CMYK";
+"Swift" = "Swift";
+"NSColor" = "NSColor";
+"Copy HEX" = "复制HEX";
+"Copy RGB" = "复制RGB";
+"Copy Swift" = "复制Swift";
+"Pick a Color" = "选择颜色";
+
+/* Eyedropper */
+"Eye Dropper" = "取色器";
+"Pick Color" = "选择颜色";
+
+/* Palettes */
+"Palettes" = "调色板";
+"Create Palette" = "创建调色板";
+"Create First Palette" = "创建第一个调色板";
+"New Palette" = "新调色板";
+"Palette name" = "调色板名称";
+"No palettes yet" = "暂无调色板";
+"No colors in this palette" = "此调色板中无颜色";
+"Add to Palette" = "添加到调色板";
+"Add current color to palette" = "将当前颜色添加到调色板";
+"Palette %@" = "调色板 %@";
+"%d colors" = "%d 种颜色";
+
+/* History */
+"History" = "历史";
+"Clear History" = "清除历史";
+"Color history item %d of %d" = "历史颜色 %d / %d";
+"No colors yet" = "暂无颜色";
+
+/* Harmony */
+"Harmony" = "和谐";
+"Color Harmony" = "色彩和谐";
+"Complementary" = "互补色";
+"Triadic" = "三色配色";
+"Analogous" = "类似色";
+"Split Complementary" = "分裂互补色";
+"Tetradic" = "四色配色";
+
+/* Contrast */
+"Contrast" = "对比度";
+"WCAG Contrast Checker" = "WCAG对比度检查器";
+"Contrast Ratio" = "对比度比率";
+"Foreground" = "前景色";
+"Background" = "背景色";
+"AA Normal" = "AA 普通";
+"AA Large" = "AA 大";
+"AAA Normal" = "AAA 普通";
+"AAA Large" = "AAA 大";
+"pass" = "通过";
+"fail" = "不通过";
+
+/* Onboarding */
+"Welcome to Swatch" = "欢迎使用 Swatch";
+"Your color companion in the menu bar" = "菜单栏中的颜色伴侣";
+"Pick any color from your screen" = "从屏幕上选取任意颜色";
+"Save colors you love into palettes" = "将喜欢的颜色保存到调色板";
+
+/* Notifications */
+"Color of the Day" = "今日颜色";
+"Weekly Palette Digest" = "每周调色板摘要";
+"Color Added" = "已添加颜色";
+"Added %@ to %@" = "已将 %@ 添加到 %@";
+
+/* Accessibility */
+"Accessibility Options" = "辅助功能选项";
+"Keyboard Shortcuts" = "键盘快捷键";
+"Swatch supports VoiceOver, Dynamic Type, and Keyboard Navigation" = "Swatch 支持 VoiceOver、动态类型和键盘导航";
