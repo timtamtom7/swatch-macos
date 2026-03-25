@@ -1,19 +1,19 @@
 import AppKit
 import Foundation
 
-struct RGB: Hashable {
+struct RGB: Hashable, Codable {
     var r: Int; var g: Int; var b: Int
 }
 
-struct HSB {
+struct HSB: Codable {
     var h: Double; var s: Double; var b: Double
 }
 
-struct CMYK {
+struct CMYK: Codable {
     var c: Double; var m: Double; var y: Double; var k: Double
 }
 
-struct SwatchColor: Identifiable {
+struct SwatchColor: Identifiable, Codable {
     let id: UUID
     var hex: String
     var name: String?

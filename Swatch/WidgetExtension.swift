@@ -25,9 +25,9 @@ struct WidgetColorView: View {
         VStack(spacing: 4) {
             RoundedRectangle(cornerRadius: 8)
                 .fill(Color(
-                    red: Double(color.red) / 255,
-                    green: Double(color.green) / 255,
-                    blue: Double(color.blue) / 255
+                    red: Double(color.rgb.r) / 255,
+                    green: Double(color.rgb.g) / 255,
+                    blue: Double(color.rgb.b) / 255
                 ))
                 .frame(width: 44, height: 44)
                 .overlay(
@@ -35,7 +35,7 @@ struct WidgetColorView: View {
                         .stroke(Color.gray.opacity(0.3), lineWidth: 1)
                 )
 
-            Text(color.hexString)
+            Text(color.hex)
                 .font(.system(size: 9, design: .monospaced))
                 .foregroundColor(.secondary)
                 .lineLimit(1)
