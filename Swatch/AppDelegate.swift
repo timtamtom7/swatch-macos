@@ -54,6 +54,16 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
         appMenu.addItem(NSMenuItem.separator())
 
+        let accessibilityItem = NSMenuItem(
+            title: "Accessibility Options",
+            action: #selector(showAccessibilityOptions),
+            keyEquivalent: ""
+        )
+        accessibilityItem.target = self
+        appMenu.addItem(accessibilityItem)
+
+        appMenu.addItem(NSMenuItem.separator())
+
         let hideItem = NSMenuItem(
             title: "Hide Swatch",
             action: #selector(NSApplication.hide(_:)),
@@ -141,6 +151,12 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
     @objc private func showPreferences() {
         // R2: Preferences window
+    }
+
+    @objc private func showAccessibilityOptions() {
+        if let url = URL(string: "x-apple.systempreferences:com.apple.preference.universalaccess") {
+            NSWorkspace.shared.open(url)
+        }
     }
 
     func activateEyedropper() {

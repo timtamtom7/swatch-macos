@@ -751,6 +751,11 @@ struct SettingsView: View {
                     .background(Color(nsColor: Theme.surfaceColor))
                     .cornerRadius(8)
                 }
+                
+                VStack(alignment: .leading, spacing: 8) {
+                    sectionHeader("ACCESSIBILITY")
+                    AccessibilityInfoView()
+                }
             }
             .padding(16)
         }
