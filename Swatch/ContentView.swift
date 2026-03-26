@@ -32,11 +32,29 @@ struct ContentView: View {
                 }
                 .tag(3)
 
+            AccessibilityView()
+                .tabItem {
+                    Label("A11y", systemImage: "accessibility")
+                }
+                .tag(4)
+
+            CommunityView()
+                .tabItem {
+                    Label("Community", systemImage: "person.3")
+                }
+                .tag(5)
+
+            ExportView(store: store)
+                .tabItem {
+                    Label("Export", systemImage: "square.and.arrow.up")
+                }
+                .tag(6)
+
             SettingsView()
                 .tabItem {
                     Label("Settings", systemImage: "gearshape")
                 }
-                .tag(4)
+                .tag(7)
         }
         .frame(width: Theme.popoverWidth, height: Theme.popoverHeight)
         .background(Color(nsColor: Theme.backgroundColor))
