@@ -1,0 +1,19 @@
+{
+  "" : {
+    "diagnostics" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/SwatchWidgets.build/Objects-normal/x86_64/SwatchWidgets-primary.dia",
+    "emit-module-dependencies" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/SwatchWidgets.build/Objects-normal/x86_64/SwatchWidgets-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/SwatchWidgets.build/Objects-normal/x86_64/SwatchWidgets-primary-emit-module.dia",
+    "pch" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/SwatchWidgets.build/Objects-normal/x86_64/SwatchWidgets-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/SwatchWidgets.build/Objects-normal/x86_64/SwatchWidgets-primary.swiftdeps"
+  },
+  "/Users/mauriello/Dev/swatch-macos/SwatchWidgets/SwatchWidgets.swift" : {
+    "const-values" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/SwatchWidgets.build/Objects-normal/x86_64/SwatchWidgets.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/SwatchWidgets.build/Objects-normal/x86_64/SwatchWidgets.d",
+    "diagnostics" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/SwatchWidgets.build/Objects-normal/x86_64/SwatchWidgets.dia",
+    "index-unit-output-path" : "/Swatch.build/Debug/SwatchWidgets.build/Objects-normal/x86_64/SwatchWidgets.o",
+    "llvm-bc" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/SwatchWidgets.build/Objects-normal/x86_64/SwatchWidgets.bc",
+    "object" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/SwatchWidgets.build/Objects-normal/x86_64/SwatchWidgets.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/SwatchWidgets.build/Objects-normal/x86_64/SwatchWidgets.swiftdeps",
+    "swiftmodule" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/SwatchWidgets.build/Objects-normal/x86_64/SwatchWidgets~partial.swiftmodule"
+  }
+}

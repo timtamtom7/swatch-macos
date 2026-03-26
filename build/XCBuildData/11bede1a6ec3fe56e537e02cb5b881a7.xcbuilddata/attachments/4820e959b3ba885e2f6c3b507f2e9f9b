@@ -1,0 +1,239 @@
+{
+  "" : {
+    "diagnostics" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/Swatch-primary.dia",
+    "emit-module-dependencies" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/Swatch-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/Swatch-primary-emit-module.dia",
+    "pch" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/Swatch-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/Swatch-primary.swiftdeps"
+  },
+  "/Users/mauriello/Dev/swatch-macos/Swatch/AI/ColorPaletteGenerator.swift" : {
+    "const-values" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/ColorPaletteGenerator.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/ColorPaletteGenerator.d",
+    "diagnostics" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/ColorPaletteGenerator.dia",
+    "index-unit-output-path" : "/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/ColorPaletteGenerator.o",
+    "llvm-bc" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/ColorPaletteGenerator.bc",
+    "object" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/ColorPaletteGenerator.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/ColorPaletteGenerator.swiftdeps",
+    "swiftmodule" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/ColorPaletteGenerator~partial.swiftmodule"
+  },
+  "/Users/mauriello/Dev/swatch-macos/Swatch/AccessibilityExtensions.swift" : {
+    "const-values" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/AccessibilityExtensions.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/AccessibilityExtensions.d",
+    "diagnostics" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/AccessibilityExtensions.dia",
+    "index-unit-output-path" : "/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/AccessibilityExtensions.o",
+    "llvm-bc" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/AccessibilityExtensions.bc",
+    "object" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/AccessibilityExtensions.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/AccessibilityExtensions.swiftdeps",
+    "swiftmodule" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/AccessibilityExtensions~partial.swiftmodule"
+  },
+  "/Users/mauriello/Dev/swatch-macos/Swatch/AppDelegate.swift" : {
+    "const-values" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/AppDelegate.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/AppDelegate.d",
+    "diagnostics" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/AppDelegate.dia",
+    "index-unit-output-path" : "/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/AppDelegate.o",
+    "llvm-bc" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/AppDelegate.bc",
+    "object" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/AppDelegate.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/AppDelegate.swiftdeps",
+    "swiftmodule" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/AppDelegate~partial.swiftmodule"
+  },
+  "/Users/mauriello/Dev/swatch-macos/Swatch/ColorConverter.swift" : {
+    "const-values" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/ColorConverter.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/ColorConverter.d",
+    "diagnostics" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/ColorConverter.dia",
+    "index-unit-output-path" : "/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/ColorConverter.o",
+    "llvm-bc" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/ColorConverter.bc",
+    "object" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/ColorConverter.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/ColorConverter.swiftdeps",
+    "swiftmodule" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/ColorConverter~partial.swiftmodule"
+  },
+  "/Users/mauriello/Dev/swatch-macos/Swatch/ColorHistory.swift" : {
+    "const-values" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/ColorHistory.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/ColorHistory.d",
+    "diagnostics" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/ColorHistory.dia",
+    "index-unit-output-path" : "/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/ColorHistory.o",
+    "llvm-bc" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/ColorHistory.bc",
+    "object" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/ColorHistory.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/ColorHistory.swiftdeps",
+    "swiftmodule" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/ColorHistory~partial.swiftmodule"
+  },
+  "/Users/mauriello/Dev/swatch-macos/Swatch/ColorPalette.swift" : {
+    "const-values" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/ColorPalette.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/ColorPalette.d",
+    "diagnostics" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/ColorPalette.dia",
+    "index-unit-output-path" : "/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/ColorPalette.o",
+    "llvm-bc" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/ColorPalette.bc",
+    "object" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/ColorPalette.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/ColorPalette.swiftdeps",
+    "swiftmodule" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/ColorPalette~partial.swiftmodule"
+  },
+  "/Users/mauriello/Dev/swatch-macos/Swatch/ColorStore.swift" : {
+    "const-values" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/ColorStore.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/ColorStore.d",
+    "diagnostics" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/ColorStore.dia",
+    "index-unit-output-path" : "/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/ColorStore.o",
+    "llvm-bc" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/ColorStore.bc",
+    "object" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/ColorStore.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/ColorStore.swiftdeps",
+    "swiftmodule" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/ColorStore~partial.swiftmodule"
+  },
+  "/Users/mauriello/Dev/swatch-macos/Swatch/ContentView.swift" : {
+    "const-values" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/ContentView.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/ContentView.d",
+    "diagnostics" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/ContentView.dia",
+    "index-unit-output-path" : "/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/ContentView.o",
+    "llvm-bc" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/ContentView.bc",
+    "object" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/ContentView.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/ContentView.swiftdeps",
+    "swiftmodule" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/ContentView~partial.swiftmodule"
+  },
+  "/Users/mauriello/Dev/swatch-macos/Swatch/EyedropperService.swift" : {
+    "const-values" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/EyedropperService.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/EyedropperService.d",
+    "diagnostics" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/EyedropperService.dia",
+    "index-unit-output-path" : "/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/EyedropperService.o",
+    "llvm-bc" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/EyedropperService.bc",
+    "object" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/EyedropperService.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/EyedropperService.swiftdeps",
+    "swiftmodule" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/EyedropperService~partial.swiftmodule"
+  },
+  "/Users/mauriello/Dev/swatch-macos/Swatch/FavoritesManager.swift" : {
+    "const-values" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/FavoritesManager.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/FavoritesManager.d",
+    "diagnostics" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/FavoritesManager.dia",
+    "index-unit-output-path" : "/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/FavoritesManager.o",
+    "llvm-bc" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/FavoritesManager.bc",
+    "object" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/FavoritesManager.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/FavoritesManager.swiftdeps",
+    "swiftmodule" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/FavoritesManager~partial.swiftmodule"
+  },
+  "/Users/mauriello/Dev/swatch-macos/Swatch/Models/Color.swift" : {
+    "const-values" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/Color.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/Color.d",
+    "diagnostics" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/Color.dia",
+    "index-unit-output-path" : "/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/Color.o",
+    "llvm-bc" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/Color.bc",
+    "object" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/Color.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/Color.swiftdeps",
+    "swiftmodule" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/Color~partial.swiftmodule"
+  },
+  "/Users/mauriello/Dev/swatch-macos/Swatch/OnboardingView.swift" : {
+    "const-values" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/OnboardingView.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/OnboardingView.d",
+    "diagnostics" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/OnboardingView.dia",
+    "index-unit-output-path" : "/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/OnboardingView.o",
+    "llvm-bc" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/OnboardingView.bc",
+    "object" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/OnboardingView.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/OnboardingView.swiftdeps",
+    "swiftmodule" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/OnboardingView~partial.swiftmodule"
+  },
+  "/Users/mauriello/Dev/swatch-macos/Swatch/Services/ColorBlindnessSimulator.swift" : {
+    "const-values" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/ColorBlindnessSimulator.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/ColorBlindnessSimulator.d",
+    "diagnostics" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/ColorBlindnessSimulator.dia",
+    "index-unit-output-path" : "/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/ColorBlindnessSimulator.o",
+    "llvm-bc" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/ColorBlindnessSimulator.bc",
+    "object" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/ColorBlindnessSimulator.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/ColorBlindnessSimulator.swiftdeps",
+    "swiftmodule" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/ColorBlindnessSimulator~partial.swiftmodule"
+  },
+  "/Users/mauriello/Dev/swatch-macos/Swatch/Services/ColorCommunityService.swift" : {
+    "const-values" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/ColorCommunityService.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/ColorCommunityService.d",
+    "diagnostics" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/ColorCommunityService.dia",
+    "index-unit-output-path" : "/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/ColorCommunityService.o",
+    "llvm-bc" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/ColorCommunityService.bc",
+    "object" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/ColorCommunityService.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/ColorCommunityService.swiftdeps",
+    "swiftmodule" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/ColorCommunityService~partial.swiftmodule"
+  },
+  "/Users/mauriello/Dev/swatch-macos/Swatch/Services/NotificationManager.swift" : {
+    "const-values" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/NotificationManager.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/NotificationManager.d",
+    "diagnostics" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/NotificationManager.dia",
+    "index-unit-output-path" : "/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/NotificationManager.o",
+    "llvm-bc" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/NotificationManager.bc",
+    "object" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/NotificationManager.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/NotificationManager.swiftdeps",
+    "swiftmodule" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/NotificationManager~partial.swiftmodule"
+  },
+  "/Users/mauriello/Dev/swatch-macos/Swatch/Services/ShortcutsManager.swift" : {
+    "const-values" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/ShortcutsManager.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/ShortcutsManager.d",
+    "diagnostics" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/ShortcutsManager.dia",
+    "index-unit-output-path" : "/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/ShortcutsManager.o",
+    "llvm-bc" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/ShortcutsManager.bc",
+    "object" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/ShortcutsManager.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/ShortcutsManager.swiftdeps",
+    "swiftmodule" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/ShortcutsManager~partial.swiftmodule"
+  },
+  "/Users/mauriello/Dev/swatch-macos/Swatch/Services/iCloudSyncManager.swift" : {
+    "const-values" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/iCloudSyncManager.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/iCloudSyncManager.d",
+    "diagnostics" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/iCloudSyncManager.dia",
+    "index-unit-output-path" : "/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/iCloudSyncManager.o",
+    "llvm-bc" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/iCloudSyncManager.bc",
+    "object" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/iCloudSyncManager.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/iCloudSyncManager.swiftdeps",
+    "swiftmodule" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/iCloudSyncManager~partial.swiftmodule"
+  },
+  "/Users/mauriello/Dev/swatch-macos/Swatch/SwatchColor.swift" : {
+    "const-values" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/SwatchColor.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/SwatchColor.d",
+    "diagnostics" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/SwatchColor.dia",
+    "index-unit-output-path" : "/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/SwatchColor.o",
+    "llvm-bc" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/SwatchColor.bc",
+    "object" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/SwatchColor.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/SwatchColor.swiftdeps",
+    "swiftmodule" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/SwatchColor~partial.swiftmodule"
+  },
+  "/Users/mauriello/Dev/swatch-macos/Swatch/Theme.swift" : {
+    "const-values" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/Theme.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/Theme.d",
+    "diagnostics" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/Theme.dia",
+    "index-unit-output-path" : "/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/Theme.o",
+    "llvm-bc" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/Theme.bc",
+    "object" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/Theme.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/Theme.swiftdeps",
+    "swiftmodule" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/Theme~partial.swiftmodule"
+  },
+  "/Users/mauriello/Dev/swatch-macos/Swatch/Views/CommunityView.swift" : {
+    "const-values" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/CommunityView.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/CommunityView.d",
+    "diagnostics" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/CommunityView.dia",
+    "index-unit-output-path" : "/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/CommunityView.o",
+    "llvm-bc" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/CommunityView.bc",
+    "object" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/CommunityView.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/CommunityView.swiftdeps",
+    "swiftmodule" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/CommunityView~partial.swiftmodule"
+  },
+  "/Users/mauriello/Dev/swatch-macos/Swatch/WidgetExtension.swift" : {
+    "const-values" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/WidgetExtension.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/WidgetExtension.d",
+    "diagnostics" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/WidgetExtension.dia",
+    "index-unit-output-path" : "/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/WidgetExtension.o",
+    "llvm-bc" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/WidgetExtension.bc",
+    "object" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/WidgetExtension.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/WidgetExtension.swiftdeps",
+    "swiftmodule" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/WidgetExtension~partial.swiftmodule"
+  },
+  "/Users/mauriello/Dev/swatch-macos/Swatch/main.swift" : {
+    "const-values" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/main.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/main.d",
+    "diagnostics" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/main.dia",
+    "index-unit-output-path" : "/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/main.o",
+    "llvm-bc" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/main.bc",
+    "object" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/main.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/main.swiftdeps",
+    "swiftmodule" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/main~partial.swiftmodule"
+  },
+  "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "const-values" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/GeneratedAssetSymbols.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/GeneratedAssetSymbols.d",
+    "diagnostics" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/GeneratedAssetSymbols.dia",
+    "index-unit-output-path" : "/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/GeneratedAssetSymbols.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/GeneratedAssetSymbols.swiftdeps",
+    "swiftmodule" : "/Users/mauriello/Dev/swatch-macos/build/Swatch.build/Debug/Swatch.build/Objects-normal/x86_64/GeneratedAssetSymbols~partial.swiftmodule"
+  }
+}

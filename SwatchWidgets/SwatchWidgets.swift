@@ -54,7 +54,7 @@ struct ColorOfDayWidgetView: View {
                     .background(Color.black.opacity(0.5), in: RoundedRectangle(cornerRadius: 6))
             }
         }
-        .widgetURL(URL(string: "swatch://color?hex=\(entry.colorHex)")!)
+        .widgetURL(URL(string: "swatch://color?hex=\(entry.colorHex)") ?? URL(string: "swatch://")!)
     }
 }
 
@@ -123,7 +123,7 @@ struct PaletteWidgetView: View {
                 .foregroundColor(.secondary)
         }
         .padding()
-        .widgetURL(URL(string: "swatch://palette?name=\(entry.paletteName.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed) ?? "")")!)
+        .widgetURL(URL(string: "swatch://palette?name=\(entry.paletteName.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed) ?? "")") ?? URL(string: "swatch://")!)
     }
 }
 

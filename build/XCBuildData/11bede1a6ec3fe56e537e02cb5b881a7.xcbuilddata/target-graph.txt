@@ -1,0 +1,4 @@
+Target dependency graph (2 targets)
+Target 'Swatch' in project 'Swatch'
+➜ Explicit dependency on target 'SwatchWidgets' in project 'Swatch'
+Target 'SwatchWidgets' in project 'Swatch' (no dependencies)
