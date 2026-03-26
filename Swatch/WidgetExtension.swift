@@ -12,8 +12,8 @@ struct WidgetData {
 
     static func load() -> WidgetData {
         var data = WidgetData()
-        data.favoriteColors = FavoritesManager.shared.fetchFavorites()
-        data.recentColors = ColorHistoryManager.shared.fetchHistory().prefix(5).map { $0.color }
+        data.favoriteColors = Array(ColorHistoryManager.shared.fetchHistory().prefix(5).map { $0.color })
+        data.recentColors = Array(ColorHistoryManager.shared.fetchHistory().prefix(5).map { $0.color })
         return data
     }
 }
